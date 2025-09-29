@@ -27,19 +27,16 @@ Suivez ces étapes pour mettre le projet en place sur votre machine locale.
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [URL_DE_VOTRE_DEPOT]
+    git clone [https://github.com/lakroune/-Gestion-des-Notes-en-C.git]
     cd gestion-des-notes
     ```
 
 2.  **Compilation :**
-    Comme votre projet est divisé en deux fichiers (`gestion_des_note.c` et `mylibrary.h` / `mylibrary.c`), vous devrez compiler le fichier principal en incluant la bibliothèque.
+    Comme votre projet est divisé en deux fichiers (`gestion_des_note.c` et `mylibrary.h` ), vous devrez compiler le fichier principal en incluant la bibliothèque.
 
-    *Si vous avez un fichier `mylibrary.c` :*
-    ```bash
-    gcc gestion_des_note.c mylibrary.c -o gestion_notes
-    ```
+   
 
-    *Si tout le code de la librairie est dans `mylibrary.h` (comme dans l'exemple fourni) :*
+    *Tout le code de la librairie est dans `mylibrary.h` (comme dans l'exemple fourni) :*
     ```bash
     gcc gestion_des_note.c -o gestion_notes
     ```
@@ -74,7 +71,7 @@ Après l'exécution, le programme vous demandera :
 | `gestion_des_note.c` | Le fichier principal (`main`) qui gère l'entrée utilisateur pour la taille du tableau et l'appel du menu. |
 | `mylibrary.h` | Contient les définitions des fonctions (saisie, affichage, menu, calcul, etc.). |
 | `README.md` | Ce fichier. |
-| `LICENSE` | (À ajouter) Le fichier contenant la licence d'utilisation du projet. |
+
 
 ## 👤 Auteur
 
