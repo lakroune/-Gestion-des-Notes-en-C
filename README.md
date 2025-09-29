@@ -27,7 +27,7 @@ Suivez ces étapes pour mettre le projet en place sur votre machine locale.
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [https://github.com/lakroune/-Gestion-des-Notes-en-C.git]
+    git clone https://github.com/lakroune/-Gestion-des-Notes-en-C.git
     cd gestion-des-notes
     ```
 
@@ -75,5 +75,5 @@ Après l'exécution, le programme vous demandera :
 
 ## 👤 Auteur
 
-* **[Lakroune ismail ]** - *Travail Initial* - ([https://github.com/lakroune])
+* **[Lakroune ismail ]** - *Travail Initial* - (https://github.com/lakroune)
 
